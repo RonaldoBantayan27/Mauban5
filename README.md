@@ -218,12 +218,12 @@ For this particular dataset, either `XGBoost Classifier` or `Random Forest Class
 | XGBoost | 0.7531 | 0.2659 | 0.9262 | 0.6188 | 0.8387 | 42,740 |
 | Random Forest | 0.7544 | 0.2669 | 0.9262 | 0.6200 | 0.8413 | 42,820 |
 | Decision Tree | 0.7481 | 0.2610 | 0.9195 | 0.611 | 0.8227 | 41,500 | 
-| Keras | 0.3577 | 0.1216 | 0.9396 | 0.4007 | 0.7253 | 19,460 | 
+| Keras | 0.4251 | 0.1341 | 0.9396 | 0.4268 | 0.7464 | 23,740 | 
 | Logistic Regression | 0.3312 | 0.1193 | 0.9597 | 0.3983 | 0.7353 | 20,540 |
-| SVC | 0.4112 | 0.1285 | 0.9128 | 0.4111 | 0.7529 | 19,180 |
-| K-Neighbors | 0.1946 | 0.1016 | 0.9664 | 0.3575 | 0.6301 | 12,780 |
+| SVC | 0.4754 | 0.1445 | 0.9329 | 0.4461 | 0.7812 | 26,020 |
+| K-Neighbors | 0.3375 | 0.1196 | 0.9530 | 0.3982 | 0.7072 | 20,020 |
 
-The **feature importance** reported by **Generative AI** is consistent with what is highlighted in the **Heatmap of Significant Correlations** in the following order: `csat_score`, `tenure_months`, `payment_failures`, and `monthly_logins`.
+The **feature importance** is consistent with what is highlighted in the **Heatmap of Significant Correlations** in the following order: `csat_score`, `tenure_months`, `payment_failures`, and `monthly_logins`.
 
 **Next Steps and Further Recommendations**  
 
@@ -235,12 +235,12 @@ The **feature importance** reported by **Generative AI** is consistent with what
   
 Churn in this dataset is primarily driven by customer satisfaction and engagement levels rather than pricing. Improving user experience and increasing product adoption would likely have the strongest impact on reducing churn.
 
-## Notebook
+**Notebook**    
 You can view the full analysis here:
 
-[Customer Churn Analysis](Customer_Churn_Prediction.ipynb)
+[Customer Churn Analysis](Customer_Churn_PredictionRB.ipynb)
 
 **References:** 
-Ronaldo Bantayan (Author) Email: one01bant@yahoo.com
+Ronaldo Bantayan (Author) Email: one01bant@yahoo.com     
 in fulfillment of requirements: Professional Certificate in Machine Learning and Artificial Intelligence UC Berkely Engineering March 22, 2026
 
